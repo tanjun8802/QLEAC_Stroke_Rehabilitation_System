@@ -136,6 +136,7 @@ int main(int argc, char** argv) {
   LeapSetPolicyFlags(*connectionHandle, eLeapPolicyFlag_Images | eLeapPolicyFlag_MapPoints, 0);
 
   printf("Press Enter to exit program.\n");
+  printf("Test new commit\n")
   getchar();
   
   CloseConnection();
